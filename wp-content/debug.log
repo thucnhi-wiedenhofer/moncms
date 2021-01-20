@@ -1,0 +1,9 @@
+[20-Jan-2021 15:48:18 UTC] PHP Warning:  Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.) in C:\wamp64\www\moncms\wp-includes\update.php on line 408
+[20-Jan-2021 15:48:18 UTC] PHP Stack trace:
+[20-Jan-2021 15:48:18 UTC] PHP   1. {main}() C:\wamp64\www\moncms\wp-admin\plugins.php:0
+[20-Jan-2021 15:48:18 UTC] PHP   2. require_once() C:\wamp64\www\moncms\wp-admin\plugins.php:10
+[20-Jan-2021 15:48:18 UTC] PHP   3. do_action($tag = 'load-plugins.php') C:\wamp64\www\moncms\wp-admin\admin.php:374
+[20-Jan-2021 15:48:18 UTC] PHP   4. WP_Hook->do_action($args = [0 => '']) C:\wamp64\www\moncms\wp-includes\plugin.php:484
+[20-Jan-2021 15:48:18 UTC] PHP   5. WP_Hook->apply_filters($value = '', $args = [0 => '']) C:\wamp64\www\moncms\wp-includes\class-wp-hook.php:311
+[20-Jan-2021 15:48:18 UTC] PHP   6. wp_update_plugins($extra_stats = '') C:\wamp64\www\moncms\wp-includes\class-wp-hook.php:287
+[20-Jan-2021 15:48:18 UTC] PHP   7. trigger_error($message = 'Une erreur imprévue est survenue. Il pourrait y avoir un problème avec WordPress.org ou la configuration de ce serveur. Si vous continuez à rencontrer ce problème, veuillez vous rendre sur les <a href="https://wpfr.net/support">forums de support</a>. (WordPress n’a pas pu établir de connexion sécurisée vers WordPress.org. Veuillez contacter l’administrateur ou l’administratrice de votre serveur.)', $error_type = 512) C:\wamp64\www\moncms\wp-includes\update.php:408
